@@ -11,6 +11,7 @@ const headings = [
 ]
 
 const headingele = document.getElementById("heading");
+const headingele2 = document.getElementById("logo");
 // console.log(headingele)
 let headingindex = 0;
 let charindex = 0;
@@ -42,4 +43,5 @@ function change() {
     }
 }
 
-// type()
+
+type();
