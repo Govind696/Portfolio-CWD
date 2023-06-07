@@ -1,0 +1,89 @@
+.backtohome-btn a {
+    text-decoration: none;
+    color: white;
+    background: #2F2F2F;
+    border: 1px solid aliceblue;
+    padding: 2px 12px;
+    margin-left: 7rem;
+    border-radius: 6px;
+}
+
+.single-post-page {
+    width: 80%;
+    margin: 2vw auto;
+    margin-bottom: 3vw;
+    background: #2F2F2F;
+    padding: 25px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
+    border-radius: 8px;
+    margin-top: 3rem;
+}
+
+.single-post-page h2 {
+    font-size: 2.2rem;
+    font-family: initial;
+    margin-bottom: 1.9rem;
+}
+
+.date-author {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1.7em;
+    color: #fc6060;
+    font-weight: 500;
+    font-size: 0.9rem;
+}
+
+.blog-date {
+    margin-right: 26px;
+}
+
+.single-page-img {
+    margin-bottom: 1.7em;
+    /* width: 100%; */
+    object-fit: cover;
+    text-align: center;
+}
+
+.single-page-img img {
+    object-fit: cover;
+    width: 90%;
+}
+
+.single-page-content p {
+    font-size: 1rem;
+    margin: 10px;
+}
+
+.h2-heading {
+    text-align: center;
+    background-color: #222;
+    font-size: 2.3rem;
+    text-transform: uppercase;
+    font-family: monospace;
+    margin: 1vw auto;
+    padding: 5px;
+    margin-top: 5vw;
+}
+
+.single-page-icons a {
+    text-decoration: none;
+    font-size: 0.9rem;
+    color: #fff;
+    padding: 0 10px;
+    width: 50%;
+}
+
+.single-page-share {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+    height: 6vw;
+    justify-content: space-evenly;
+}
+
+.single-page-share h4 {
+    font-size: 1.4rem;
+    font-weight: 500;
+}

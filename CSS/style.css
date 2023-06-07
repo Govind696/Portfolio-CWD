@@ -1,0 +1,317 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background: url(/IMG/uchiha1.jpg) center center;
+    background-size: cover;
+    height: 100vh;
+    color: white;
+}
+
+nav {
+    background: transparent;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Courier New', Courier, monospace;
+    height: 20vh;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+#logo {
+    font-weight: 700;
+    font-size: 3rem;
+    animation: typing 2s steps(5 , end);
+}
+
+#logo::after {
+    content: "|";
+    color: #fff;
+    animation: curser 0.5s infinite;
+}
+
+@keyframes typing {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 100%;
+    }
+}
+
+.nav-items {
+    display: flex;
+}
+
+.nav-items a {
+    margin: 0 1rem;
+    text-decoration: none;
+}
+
+.nav-items a li {
+    list-style: none;
+    color: rgb(255, 255, 255);
+    font-size: 1.1rem;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.nav-items a li:hover {
+    color: rgb(168, 165, 165);
+    font-weight: 600;
+    text-decoration: line-through;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.hero-content {
+    width: 42%;
+    height: 65vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* padding-left: 13rem; */
+}
+
+.hero-content-text {
+    font-size: 1.2rem;
+    width: 65%;
+    margin: 2px 5px;
+}
+
+.hero-content h1 {
+    margin: 2px 0;
+    font-size: 3rem;
+}
+
+#heading {
+    font-size: 3.7rem;
+    color: #68f055;
+}
+
+#heading::after {
+    content: "|";
+    animation: curser 0.5s infinite;
+    color: #000000;
+}
+
+@keyframes curser {
+    50% {
+        opacity: 0;
+    }
+
+}
+
+.hero-content-text2 {
+    font-size: 1rem;
+    width: 80%;
+}
+
+.hero-btns {
+    height: 6vh;
+    /* width: 30%; */
+    display: flex;
+    /* justify-content: space-evenly; */
+    align-items: center;
+    margin: 2rem;
+}
+
+.hero-btns :nth-child(1) {
+    padding: 7px 20px;
+    border: 1px solid;
+    outline: none;
+    background: aqua;
+    font-size: 0.9rem;
+    font-weight: 700;
+    margin: 0 1rem;
+}
+
+.hero-btns :nth-child(2) {
+    padding: 7px 20px;
+    margin: 0 1rem;
+    border: 1px solid;
+    outline: none;
+    background: rgb(69, 180, 253);
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+
+.hero-btns :nth-child(3) {
+    margin: 0 1rem;
+    padding: 7px 20px;
+    border: 1px solid;
+    outline: none;
+    background: rgb(187, 58, 238);
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+
+main h2 {
+    text-align: center;
+    background-color: antiquewhite;
+    font-size: 3rem;
+    /* margin: 2rem auto; */
+    padding: 3rem 0;
+}
+
+.services-box {
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 2rem;
+}
+
+.services-card {
+    width: 30%;
+    /* border: 2px solid red; */
+}
+
+.services-card-text {
+    /* text-align: center; */
+    margin: 15px;
+}
+
+.services-card-text h3 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-align: center;
+    margin: 10px auto;
+}
+
+.services-card-text h3 p {
+    text-align: justify;
+    margin: 10px 0;
+}
+
+.services-card-btn {
+    padding: 7px 20px;
+    border: 1px solid;
+    outline: none;
+    background: rgb(92, 194, 234);
+    font-size: 0.9rem;
+    font-weight: 700;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+.about-content {
+    /* display: flex;
+    justify-content: center;
+    align-content: center; */
+    padding-bottom: 5rem;
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.about-content-text {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+}
+
+.about-content-text :nth-child(1) {
+    font-size: 1.2rem;
+    width: 65%;
+    margin: 2px 0;
+    margin-left: 5px;
+}
+
+.about-content-text :nth-child(2) {
+    margin: 2px 0;
+    font-size: 3rem;
+}
+
+.about-content-text :nth-child(3) {
+    font-size: 1rem;
+    margin: 3px 0;
+    margin-left: 5px;
+}
+
+.about-content-text :nth-child(4) {
+    padding: 7px 20px;
+    margin: 2rem 1rem;
+    border: 1px solid;
+    background: rgb(55, 61, 66);
+    font-size: 0.9rem;
+    font-weight: 700;
+    width: 25%;
+    color: #fff;
+}
+
+.about-content img {
+    width: 30%;
+}
+
+footer {
+    /* height: 45vh; */
+    width: 100%;
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.footer-content {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+}
+
+.footer-content-box h4 {
+    font-size: 1.5rem;
+    margin: 25px 0 0 8px;
+}
+
+.footer-inner-content-box {
+    margin: 16px 10px;
+    display: flex;
+    flex-direction: column;
+    height: 17vh;
+    justify-content: space-evenly;
+}
+
+.footer-inner-content-box a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.1rem;
+}
+
+.footer-inner-content-box p {
+    font-size: 1rem;
+}
+
+.footer-inner-content-box a li {
+    font-size: 1.1rem;
+    list-style: none;
+}
+
+.footer-inner-content-box a img {
+    font-size: 1.1rem;
+}
+
+.footer-logo {
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 2rem 0 0 14.3rem;
+}
+
+.footer-copyright {
+    text-align: center;
+    font-size: 1rem;
+    padding: 15px 0;
+
+}

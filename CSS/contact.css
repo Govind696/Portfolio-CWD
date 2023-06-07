@@ -1,0 +1,97 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #222;
+}
+.contact-container {
+	/* width: 50%; */
+	/* margin: 0 auto; */
+	/* display: flex; */
+	/* justify-content: center; */
+	/* align-items: start; */
+	/* flex-direction: column; */
+	/* margin-bottom: 4rem; */
+}
+.contact-content-form {
+    padding: 35px;
+    background-color: #000;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    border-radius: 30px;
+    border-bottom: 1px solid white;
+    border-top: 1px solid white;
+    box-shadow: 0 5px 7px 0 rgba(245, 245, 245, 0.2);
+}
+.contact-content-form:hover{
+    background: #000000;
+}
+
+.contact-container h2 {
+    width: 100%;
+    color: white;
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}
+.contact-content-items {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: 0.5rem 2rem;
+}
+.contact-content-items label{
+    font-size: 1rem;
+    padding: 5px 0;
+    color: #fc6060;
+    font-weight: 600;
+    letter-spacing: 1.1px;
+}
+.contact-content-items input:hover{
+    background: #000000;
+    box-shadow: 0 5px 7px 0 rgba(245, 245, 245, 0.2);
+    cursor: pointer;
+    border: 1px solid #fc6060;
+}
+.contact-content-items input {
+	text-align: center;
+	padding: 6px 0;
+	background: #141414;
+	font-size: 0.8rem;
+	letter-spacing: 1.1px;
+	/* border: 2px solid white; */
+	border-radius: 6px;
+	border: none;
+	outline: none;
+}
+.contact-content-items input::placeholder{
+    color: white;    
+}
+.contact-content-items button{
+    background: #141414;
+    color: white;
+    font-size: 1.1rem;
+    padding: 5px 10px;
+    width: 8rem;
+    text-align: center;
+    font-weight: 600;
+    margin-top: 1.5rem;
+    margin-left: 2REM;
+    border-radius: 6px;
+    /* border: 1px solid; */
+    border: none;
+	outline: none;
+}
+.contact-content-items button:hover{
+    box-shadow: 0 2px 8px  rgba(255, 255, 255, 0.2);
+    cursor: pointer;background: #000000;
+    border: 1px solid #fc6060;
+}
+.extra-height{
+    height: 10vh;
+}

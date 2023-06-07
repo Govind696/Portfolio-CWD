@@ -1,0 +1,72 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: cursive;
+
+}
+
+.about-li {
+    color: rgb(255, 255, 255);
+}
+
+.about-li:hover {
+    color: rgb(168, 165, 165);
+}
+
+.about-page {
+    background: url(/IMG/lap.jpg) center center;
+    background-size: cover;
+}
+
+.about-page-heading {
+    text-align: center;
+    color: #fff;
+    font-size: 3vw;
+    text-transform: uppercase;
+    font-family: monospace;
+    padding: 2vw 0 3vw 0;
+}
+
+.about-page-content {
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+    padding-bottom: 4vw;
+    color: #fff;
+}
+.about-content-text{
+    animation: maincontent 0.4s ease-in;
+    position: relative;
+    
+}
+@keyframes maincontent {
+    0% {
+        left: 40vw;
+    }
+
+    
+    100% {
+        left: 0vw;
+    }
+
+}
+.about-page-content img {
+    object-fit: cover;
+    width: 30%;
+    margin-top: 4vw;
+    position: relative;
+    animation: mainimg 0.4s ease-in;
+}
+
+@keyframes mainimg {
+    0% {
+        left: -36vw;
+    }
+
+    
+    100% {
+        left: 0vw;
+    }
+
+}
