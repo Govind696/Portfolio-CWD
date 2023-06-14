@@ -1,6 +1,5 @@
 'use strict';
 
-
 const headings = [
     "Coder",
     "Developer",
@@ -43,5 +42,19 @@ function change() {
     }
 }
 
-
 type();
+
+
+//   ------->     responsive navbar
+
+// let ham = document.getElementsByClassName(".ham-nav");
+function resnav() {
+    let navbar2 = document.getElementById("icon-nav");
+    let navbar = document.getElementById("navbar");
+    let lis = document.getElementsByClassName("liclas");
+    navbar2.classList.toggle('responsive-navbar');
+    navbar.classList.toggle('responsive-lis');
+    lis.style.display = "block";
+    // .toggle('responsive-lis');
+    console.log(lis);
+}; 

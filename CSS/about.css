@@ -29,34 +29,77 @@
 }
 
 .about-page-content {
-    display: flex;
-    justify-content: space-evenly;
-    align-content: center;
-    padding-bottom: 4vw;
-    color: #fff;
+	padding-bottom: 5rem;
+	display: flex;
+	margin: 0 auto;
+	align-items: center;
+	justify-content: center;
 }
-.about-content-text{
-    animation: maincontent 0.4s ease-in;
-    position: relative;
-    
+.about-page-text:hover{
+    background-color: #222;
+    cursor: pointer;
+}
+
+.about-page-text {
+	width: 50%;
+	background: transparent;
+	padding: 30px;
+	border-radius: 30px;
+	backdrop-filter: blur(60px);
+	margin-top: 4rem;
+	transition: all 0.2s ease-in;
+	border-bottom: 1px solid aliceblue;
+	border-top: 1px solid aliceblue;
+}
+
+.about-page-text h3 {
+    font-size: 2.2rem;
+    margin: 10px 0;
+}
+
+.about-page-text:nth-child(1) {
+        font-size: 1.2rem;
+        margin-top: 10px;
+}
+
+.about-page-text:nth-child(3) {
+    margin: 25px 0;
+}
+.about-content-btn {
+	background: transparent;
+	color: white;
+	padding: 6px 24px;
+	font-size: 1rem;
+	font-weight: bold;
+	margin: 60px 0 16px 27px;
+	width: fit-content;
+}
+.about-content-btn:hover {
+    cursor: pointer;
+	box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+	background-color: #fff;
+	color: #000;
+    border: 1px solid;
+    transition: all 0.2s ease-in;
 }
 @keyframes maincontent {
     0% {
         left: 40vw;
     }
 
-    
+
     100% {
         left: 0vw;
     }
 
 }
+
 .about-page-content img {
-    object-fit: cover;
-    width: 30%;
-    margin-top: 4vw;
-    position: relative;
-    animation: mainimg 0.4s ease-in;
+	object-fit: cover;
+	width: 28%;
+	margin-top: 4vw;
+	animation: mainimg 0.4s ease-in;
+	margin-right: 4rem;
 }
 
 @keyframes mainimg {
@@ -64,7 +107,7 @@
         left: -36vw;
     }
 
-    
+
     100% {
         left: 0vw;
     }

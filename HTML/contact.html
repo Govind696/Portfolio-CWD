@@ -9,31 +9,36 @@
     <link rel="stylesheet" href="/CSS/style.css">
     <link rel="stylesheet" href="/CSS/media-quarys.css">
     <script src="/JS/index.js" defer=""></script>
+    <link rel="shortcut icon" href="/IMG/experince.jpg" type="image/x-icon">
     <title>CWD -- Contact page</title>
 </head>
 
 <body>
-    <nav>
+    <nav id="navbar">
         <div class="logo">
             <!-- <img src="" alt="Ungraduate-Coder"> -->
             <h2>Ungraduate Coder</h2>
+               <img class="ham-nav" src="/IMG/ham-nav.png" alt="hamburger" width="40px" onclick="resnav()">
         </div>
-        <ul class="nav-items">
+        <ul id="icon-nav" class="nav-items">
             <a href="/index.html">
-                <li>Home</li>
+                <li  class="liclas" >Home</li>
             </a>
             <a href="/HTML/about.html">
-                <li>About-me</li>
+                <li  class="liclas">About-me</li>
+            </a>
+            <a href="/HTML/blog.html">
+                <li  class="liclas">Blog</li>
             </a>
             <a href="">
-                <li>Blog</li>
-            </a>
-            <a href="">
-                <li>Portfolio</li>
+                <li  class="liclas">Portfolio</li>
             </a>
             <a href="/HTML/contact.html">
-                <li style="color: rgb(156, 152, 152);text-decoration: line-through;">Contact-us</li>
+                <li  class="liclas" style="color: rgb(156, 152, 152);text-decoration: line-through;">Contact-us</li>
             </a>
+           <!-- <button class="nav-icon">
+               <img class="ham-nav" src="/IMG/ham-nav.png" alt="hamburger" width="40px">
+            </button> -->
         </ul>
     </nav>
     <div class="contact-main-container">
@@ -68,7 +73,7 @@
             </form>
             <div class="contact-content">
                 <h4>Socialize with Social</h4>
-                <div class="footer-inner-content-box">
+                <div class="f-contact-box">
                     <a href=""><img src="" alt="Facebook.com"></a>
                     <a href=""><img src="" alt="google.com"></a>
                     <a href=""><img src="" alt="twitter.com"></a>
@@ -100,12 +105,12 @@
                 <div class="footer-inner-content-box">
 
                     <a href="/index.html">
-                        <li>Home</li>
+                        <li >Home</li>
                     </a>
                     <a href="/HTML/about.html">
                         <li>About-me</li>
                     </a>
-                    <a href="">
+                    <a href="/HTML/blog.html">
                         <li>Blog</li>
                     </a>
                     <a href="">

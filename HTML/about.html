@@ -8,6 +8,7 @@
     <title>CWD -- About page</title>
     <link rel="stylesheet" href="/CSS/style.css">
     <link rel="stylesheet" href="/CSS/about.css">
+    <link rel="stylesheet" href="/CSS/media-quarys.css">
     <script src="/JS/index.js" defer=""></script>
     <link rel="shortcut icon" href="/IMG/experince.jpg" type="image/x-icon">
 </head>
@@ -15,34 +16,38 @@
 <body>
     <div class="about-page">
 
-        <nav>
+        <nav id="navbar">
             <div class="logo">
                 <!-- <img src="" alt="Ungraduate-Coder"> -->
                 <h2>Ungraduate Coder</h2>
+                   <img class="ham-nav" src="/IMG/ham-nav.png" alt="hamburger" width="40px" onclick="resnav()">
             </div>
-            <ul class="nav-items">
+            <ul id="icon-nav" class="nav-items">
                 <a href="/index.html">
-                    <li class="about-li">Home</li>
+                    <li  class="liclas" >Home</li>
                 </a>
                 <a href="/HTML/about.html">
-                    <li class="about-li" style="color: rgb(156, 152, 152);text-decoration: line-through;">About-me</li>
+                    <li  class="liclas" style="color: rgb(156, 152, 152);text-decoration: line-through;">About-me</li>
                 </a>
-                <a href="">
-                    <li class="about-li">Blog</li>
+                <a href="/HTML/blog.html">
+                    <li  class="liclas">Blog</li>
                 </a>
-                <a href="">
-                    <li class="about-li">Portfolio</li>
+                <a href="/HTML/">
+                    <li  class="liclas">Portfolio</li>
                 </a>
-                <a href="">
-                    <li class="about-li">Contact-us</li>
+                <a href="/HTML/contact.html">
+                    <li  class="liclas">Contact-us</li>
                 </a>
+               <!-- <button class="nav-icon">
+                   <img class="ham-nav" src="/IMG/ham-nav.png" alt="hamburger" width="40px">
+                </button> -->
             </ul>
         </nav>
         <section>
             <!-- <h2 class="about-page-heading">About me</h2> -->
             <div class="about-page-content" >
-                <img src="/IMG/m2.png" alt="">
-                <div class="about-content-text">
+                <img src="/IMG/m2.png" alt="about-content-main-image">
+                <div class="about-page-text">
                     <p>Hello, my name is</p>
                     <h3>Govind-Gour</h3>
                     <p>Hi, I'm Govind-Gour, a passionate and experienced web
@@ -75,7 +80,9 @@
                         If you're looking for a skilled and reliable web developer who is passionate about creating
                         engaging online experiences, feel free to get in touch. I would love to discuss your project and
                         how we can collaborate to achieve your goals.</p>
-                        <button class="about-content-btn">Contact-me</button>
+                        <a href="/HTML/contact.html">
+                            <button class="about-content-btn">Contact-me</button>
+                        </a>
                     </div>
                 </div>
             </section>
@@ -88,10 +95,10 @@
                     <h4>Contact us</h4>
                     <div class="footer-inner-content-box">
                         <a href="tel:+917742276450">
-                            <p style="font-size: 1vw;">+9177422-76450</p>
+                            <p>+9177422-76450</p>
                         </a>
                         <a href="mailto:govindgour68@gmail.com">
-                            <p style="font-size: 1vw;">govindgour68@gmail.com</p>
+                            <p style="font-size: 1rem;">govindgour68@gmail.com</p>
                         </a>
                         <p class="address">41, AANAND NAGAR, PALI, PALI, RAJASTHAN</p>
                         <p class="address">PALI RJ 306401 , INDIA</p>
@@ -102,18 +109,18 @@
                     <div class="footer-inner-content-box">
     
                         <a href="/index.html">
-                            <li>Home</li>
+                            <li >Home</li>
                         </a>
                         <a href="/HTML/about.html">
                             <li style="color: rgb(156, 152, 152);text-decoration: line-through;">About-me</li>
                         </a>
-                        <a href="">
-                            <li>Blog</li>
+                        <a href="/HTML/blog.html">
+                            <li >Blog</li>
                         </a>
                         <a href="">
                             <li>Portfolio</li>
                         </a>
-                        <a href="">
+                        <a href="/HTML/contact.html">
                             <li>Contact-us</li>
                         </a>
                         <a href="">

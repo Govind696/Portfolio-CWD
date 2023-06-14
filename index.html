@@ -15,27 +15,31 @@
 
 <body>
     <header>
-        <nav>
+        <nav id="navbar">
             <div class="logo">
                 <!-- <img src="" alt="Ungraduate-Coder"> -->
                 <h2>Ungraduate Coder</h2>
+                <img class="ham-nav" src="/IMG/ham-nav.png" alt="hamburger" width="40px" onclick="resnav()">
             </div>
-            <ul class="nav-items">
-                <a href="index.html">
-                    <li style="color: rgb(156, 152, 152);text-decoration: line-through;">Home</li>
+            <ul id="icon-nav" class="nav-items">
+                <a href="/index.html">
+                    <li class="liclas" style="color: rgb(156, 152, 152);text-decoration: line-through;">Home</li>
                 </a>
                 <a href="/HTML/about.html">
-                    <li>About-me</li>
+                    <li class="liclas">About-me</li>
+                </a>
+                <a href="/HTML/blog.html">
+                    <li class="liclas">Blog</li>
                 </a>
                 <a href="">
-                    <li>Blog</li>
-                </a>
-                <a href="">
-                    <li>Portfolio</li>
+                    <li class="liclas">Portfolio</li>
                 </a>
                 <a href="/HTML/contact.html">
-                    <li>Contact-us</li>
+                    <li class="liclas">Contact-us</li>
                 </a>
+                <!-- <button class="nav-icon">
+                   <img class="ham-nav" src="/IMG/ham-nav.png" alt="hamburger" width="40px">
+                </button> -->
             </ul>
         </nav>
 
@@ -51,9 +55,13 @@
                     frameworks
                     such as React and Wordpress like CMS's.</p>
                 <div class="hero-btns">
-                    <button class="btn">About-me</button>
+                    <a href="/HTML/about.html">
+                        <button class="btn">About-me</button>
+                    </a>
+                    <a href="/HTML/contact.html">
+                        <button class="btn">Hire-me</button>
+                    </a>
                     <!-- <button class="btn">Portfolio</button> -->
-                    <button class="btn">Hire-me</button>
                 </div>
             </div>
             <!-- <img src="/IMG/.jpg" alt="" style="width: 30%;"> -->
@@ -100,7 +108,7 @@
             </div>
             <div class="services-card">
                 <div class="services-img">
-                    <img src="/IMG/blog.png" alt="">
+                    <img src="/IMG/blog (2).png" alt="">
                 </div>
                 <div class="services-card-text">
                     <h3>Blog Posting</h3>
@@ -120,7 +128,7 @@
             <div class="about-content">
                 <img src="/IMG/m2.png" alt="">
                 <div class="about-content-text">
-                    <p>Hello, my name is</p>
+                    <p class="about-content-text-p">Hello, my name is</p>
                     <h3>Govind-Gour</h3>
                     <p>A passionate and experienced web
                         developer. With 2 years of hands-on experience in the field, I have helped numerous businesses
@@ -133,7 +141,9 @@
                         such as React and Wordpress like CMS's. I have a keen eye for detail, and I strive to create
                         visually appealing websites that not only look great but also provide a seamless browsing
                         experience.</p>
-                    <button class="about-content-btn">Read-More</button>
+                        <a href="/HTML/about.html">
+                            <button class="about-content-btn">Read-More</button>
+                        </a>
                 </div>
             </div>
         </section>
@@ -182,43 +192,42 @@
         </section>
         <hr>
         <h2>Why Choose me</h2>
-        <section class="why-me">
-            <section class="services-box">
-                <div class="services-card">
-                    <div class="services-img">
-                        <img src="/IMG/uchiha1.jpg" alt="" width="100%;">
+            <section class="why-me-box">
+                <div class="why-me-card">
+                    <div class="why-me-img">
+                        <img class="Choose-me-img" src="/IMG/communication.png" alt="" width="100%;">
                     </div>
-                    <div class="services-card-text">
+                    <div class="why-me-card-text">
                         <h3>Web Development</h3>
                         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Velit corrupti labore maxime optio
                             repellendus ipsum aspernatur, illum nam odit exercitationem.</p>
-                        <button class="services-card-btn">Check-it</button>
+                        <button class="why-me-card-btn">Check-it</button>
                     </div>
                 </div>
-                <div class="services-card">
-                    <div class="services-img">
-                        <img src="/IMG/aot.jpg" alt="" width="100%;">
+                <div class="why-me-card">
+                    <div class="why-me-img">
+                        <img class="Choose-me-img" src="/IMG/communication.png" alt="" width="100%;">
                     </div>
-                    <div class="services-card-text">
-                        <h3>S.E.O. Optimization</h3>
+                    <div class="why-me-card-text">
+                        <h3>Web Development</h3>
                         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Velit corrupti labore maxime optio
                             repellendus ipsum aspernatur, illum nam odit exercitationem.</p>
-                        <button class="services-card-btn">Check-it</button>
+                        <button class="why-me-card-btn">Check-it</button>
                     </div>
                 </div>
-                <div class="services-card">
-                    <div class="services-img">
-                        <img src="/IMG/uchiha2.jpg" alt="" width="100%;">
+                <div class="why-me-card">
+                    <div class="why-me-img">
+                        <img class="Choose-me-img" src="/IMG/communication.png" alt="" width="100%;">
                     </div>
-                    <div class="services-card-text">
-                        <h3>Content Writing</h3>
+                    <div class="why-me-card-text">
+                        <h3>Web Development</h3>
                         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Velit corrupti labore maxime optio
                             repellendus ipsum aspernatur, illum nam odit exercitationem.</p>
-                        <button class="services-card-btn">Check-it</button>
+                        <button class="why-me-card-btn">Check-it</button>
                     </div>
                 </div>
+                
             </section>
-        </section>
     </main>
     <hr>
 
@@ -243,12 +252,12 @@
                 <div class="footer-inner-content-box">
 
                     <a href="/index.html">
-                        <li class="active" style="color: rgb(156, 152, 152);text-decoration: line-through;">Home</li>
+                        <li style="color: rgb(156, 152, 152);text-decoration: line-through;">Home</li>
                     </a>
                     <a href="/HTML/about.html">
                         <li>About-me</li>
                     </a>
-                    <a href="">
+                    <a href="/HTML/blog.html">
                         <li>Blog</li>
                     </a>
                     <a href="">

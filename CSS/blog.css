@@ -1,0 +1,142 @@
+.blog-img img {
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.posts {
+    width: 24%;
+    padding: 15px;
+    border: 1px solid;
+    border-radius: 12px;
+    margin: 6px;
+    margin-top: 26px;
+}
+
+.posts:hover {
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.4);
+    background-color: #222;
+}
+
+.blog-text {
+    cursor: pointer;
+}
+
+.blog-text p {
+    margin-top: 1rem;
+    font-size: 0.9rem;
+    margin-bottom: 20px;
+}
+
+.blog-text span {
+    font-size: 0.7rem;
+    /* position: relative; */
+    /* left: 143px; */
+    color: #fc6060;
+}
+
+.post-date-blog {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.blog-text h3 {
+    margin-top: 1rem;
+}
+
+.blog-text a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.blog-posts {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.container {
+    margin-top: 1rem;
+}
+
+.blog-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    justify-items: center;
+    /* border: 1px solid aliceblue; */
+    height: 22vh;
+}
+
+.blog-main-heading {
+    text-align: center;
+}
+
+.blog-main-heading h2 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+.blog-main-heading h2::after {
+	content: "";
+	border-bottom: 3px solid #fc6060;
+	width: 75%;
+	display: inline-block;
+	border-radius: 50px;
+}
+
+.blog-search-bar {
+    display: flex;
+    margin-top: 1rem;
+}
+
+.blog-search-bar input {
+    height: 6vh;
+    width: 32vw;
+    text-align: center;
+    padding: 0 10px;
+    background-color: #fff;
+    font-size: 0.9rem;
+    border: 1px solid transparent;
+    border-top-left-radius: 70px;
+    outline: none;
+    border-bottom-left-radius: 70px;
+}
+
+.blog-search-bar input::placeholder {
+    color: #000000;
+    font-weight: 600;
+    font-size: 1rem;
+    letter-spacing: 2px;
+}
+
+.blog-search-bar input:hover::placeholder {
+    color: #111111;
+}
+
+.blog-search-bar input:hover {
+    background-color: #f7f7f7;
+    cursor: pointer;
+}
+
+.blog-search-bar button {
+    border: 1px solid transparent;
+    background-color: #fff;
+    padding: 0 30px;
+    border-left: 1px solid black;
+    /* outline: none; */
+    font-size: 1rem;
+    font-weight: 600;
+    letter-spacing: 2px;
+    border-top-right-radius: 70px;
+    border-bottom-right-radius: 70px;
+}
+
+.blog-search-bar button:hover {
+    background: #f7f7f7;
+    color: #111111;
+    cursor: pointer;
+}
