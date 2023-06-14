@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="/CSS/style.css">
     <link rel="stylesheet" href="/CSS/media-quarys.css">
     <script src="/JS/index.js" defer=""></script>
+    <script src="/JS/blog.js" defer=""></script>
     <link rel="shortcut icon" href="/IMG/experince.jpg" type="image/x-icon">
 </head>
 
@@ -149,46 +150,8 @@
         </section>
         <hr>
         <h2>Recent Blog Posts</h2>
-        <section class=" recent-blog">
-            <div class=" recent-blog-posts">
-                <div class="recent-blog-img">
-                    <img src="/IMG/webdev.png" alt="">
-                </div>
-                <div class="recent-blog-text">
-                    <h3>Blog Posting</h3>
-                    <p>Welcome to my blog! Dive into a world of captivating stories, insightful articles, and
-                        practical tips. Explore a variety of topics, from lifestyle and personal development to travel.
-                    </p><a href="/HTML/single-post.html" class="services-card-btn">Read-More</a>
-                    <span>Posted on June 6 2023</span>
-                    <!-- <button class="services-card-btn">Read-More</button> -->
-                </div>
-            </div>
-            <div class=" recent-blog-posts">
-                <div class="recent-blog-img">
-                    <img src="/IMG/webdev.png" alt="">
-                </div>
-                <div class="recent-blog-text">
-                    <h3>Blog Posting</h3>
-                    <p>Welcome to my blog! Dive into a world of captivating stories, insightful articles, and
-                        practical tips. Explore a variety of topics, from lifestyle and personal development to travel.
-                    </p><a href="/HTML/single-post.html" class="services-card-btn">Read-More</a>
-                    <span>Posted on June 6 2023</span>
-                    <!-- <button class="services-card-btn">Read-More</button> -->
-                </div>
-            </div>
-            <div class=" recent-blog-posts">
-                <div class="recent-blog-img">
-                    <img src="/IMG/webdev.png" alt="">
-                </div>
-                <div class="recent-blog-text">
-                    <h3>Blog Posting</h3>
-                    <p>Welcome to my blog! Dive into a world of captivating stories, insightful articles, and
-                        practical tips. Explore a variety of topics, from lifestyle and personal development to travel.
-                    </p><a href="/HTML/single-post.html" class="services-card-btn">Read-More</a>
-                    <span>Posted on June 6 2023</span>
-                    <!-- <button class="services-card-btn">Read-More</button> -->
-                </div>
-            </div>
+        <section id="recent-blog" class="recent-blog">
+            
         </section>
         <hr>
         <h2>Why Choose me</h2>
@@ -284,6 +247,53 @@
         </div>
         <p class="footer-copyright">Copyright &copy; www.codewithgour.com | All rights Reserved</p>
     </Footer>
+    <script>
+        
+const headings = [
+    "Coder",
+    "Developer",
+    "Freelancer",
+    "Blogger",
+    "Designer",
+    "SEO_Expert"
+]
+
+const headingele = document.getElementById("heading");
+const headingele2 = document.getElementById("logo");
+// console.log(headingele)
+let headingindex = 0;
+let charindex = 0;
+
+function type() {
+    if (headingindex < headings.length) {
+        if (charindex < headings[headingindex].length) {
+            headingele.innerHTML += headings[headingindex].charAt(charindex);
+            charindex++;
+            setTimeout(type, 100);
+        } else {
+            setTimeout(change, 1000);
+        }
+    }else{
+        headingindex = 0;
+        setTimeout(type, 1000);
+    }
+}
+
+function change() {
+    if (charindex >= 0) {
+        const currentheading = headings[headingindex];
+        headingele.innerHTML = currentheading.substring(0, charindex);
+        charindex--;
+        setTimeout(change, 50);
+    } else {
+        headingindex++;
+        setTimeout(type, 500);
+    }
+}
+
+type();
+
+    </script>
 </body>
 
 </html>
