@@ -1,16 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CWD -- Portfolio</title>
-    <link rel="stylesheet" href="/CSS/style.css">
-    <link rel="stylesheet" href="/CSS/media-quarys.css">
-    <script src="/JS/index.js" defer=""></script>
-    <script src="/JS/blog.js" defer=""></script>
-    <link rel="shortcut icon" href="/IMG/experince.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="http://localhost/cwdportfolio/CSS/style.css">
+    <link rel="stylesheet" href="http://localhost/cwdportfolio/CSS/media-quarys.css">
+    <script src="http://localhost/cwdportfolio/JS/index.js"></script>
+    <!-- <link rel="shortcut icon" href="/IMG/experince.jpg" type="image/x-icon"> -->
 </head>
 
 
@@ -18,24 +16,24 @@
     <header>
         <nav id="navbar">
             <div class="logo">
-                <!-- <img src="" alt="Ungraduate-Coder"> -->
-                <h2>Ungraduate Coder</h2>
-                <img class="ham-nav" src="/IMG/ham-nav.png" alt="hamburger" width="40px" onclick="resnav()">
+                <img class="main-logo" src="http://localhost/cwdportfolio/IMG/Untitled.png" alt="Ungraduate-Coder">
+                <!-- <h2>Ungraduate Coder</h2> -->
             </div>
+            <img class="ham-nav" src="http://localhost/cwdportfolio/IMG/ham-nav.png" alt="hamburger" width="40px" onclick="resnav()">
             <ul id="icon-nav" class="nav-items">
-                <a href="/index.html">
+                <a href="http://localhost/cwdportfolio/index.php">
                     <li class="liclas" style="color: rgb(156, 152, 152);text-decoration: line-through;">Home</li>
                 </a>
-                <a href="/HTML/about.html">
+                <a href="http://localhost/cwdportfolio/HTML/about.php">
                     <li class="liclas">About-me</li>
                 </a>
-                <a href="/HTML/blog.html">
+                <a href="http://localhost/cwdportfolio/HTML/blog.php">
                     <li class="liclas">Blog</li>
                 </a>
-                <a href="">
+                <a href="http://localhost/cwdportfolio/HTML/portfolio.php">
                     <li class="liclas">Portfolio</li>
                 </a>
-                <a href="/HTML/contact.html">
+                <a href="http://localhost/cwdportfolio/HTML/contact.php">
                     <li class="liclas">Contact-us</li>
                 </a>
                 <!-- <button class="nav-icon">
@@ -56,10 +54,13 @@
                     frameworks
                     such as React and Wordpress like CMS's.</p>
                 <div class="hero-btns">
-                    <a href="/HTML/about.html">
-                        <button class="btn">About-me</button>
+                    <a href="http://localhost/cwdportfolio/govind-resume.pdf" download>
+                        <button class="btn">Download Resume</button>
+                     </a>
+                    <a href="http://localhost/cwdportfolio/HTML/portfolio.php">
+                        <button class="btn">Portfolio</button>
                     </a>
-                    <a href="/HTML/contact.html">
+                    <a href="http://localhost/cwdportfolio/HTML/contact.php">
                         <button class="btn">Hire-me</button>
                     </a>
                     <!-- <button class="btn">Portfolio</button> -->
@@ -69,55 +70,45 @@
         </section>
 
     </header>
-    <hr>
 
-
-    <main>
+    <main class="main-bac">
         <h2>Our Services</h2>
         <section class="services-box">
             <div class="services-card">
                 <div class="services-img">
-                    <img src="/IMG/webdev.png" alt="">
+                    <img src="http://localhost/cwdportfolio/IMG/webdev.png" alt="">
                 </div>
                 <div class="services-card-text">
                     <h3>Web Development</h3>
                     <p>Need a website that doesn't look like it's from the 90s? Let me help you create a website
                         or redesign one that stands out from the competition.
-                        As a freelance web developer, I offer comprehensive web development services to businesses and
-                        individuals seeking to establish a strong online presence. With a keen eye for design,
-                        proficiency in programming languages, and a deep understanding of user experience, I create
-                        visually appealing and functional websites that meet my clients.
+                        As a freelance web developer...
                     </p>
                     <button class="services-card-btn">Check-it</button>
                 </div>
             </div>
             <div class="services-card">
                 <div class="services-img">
-                    <img src="/IMG/SEO-.png" alt="">
+                    <img src="http://localhost/cwdportfolio/IMG/webdev.png" alt="">
                 </div>
                 <div class="services-card-text">
-                    <h3>Search Engine Optimization</h3>
+                    <h3>S.E.O.</h3>
                     <p>Is your website getting lost in the sea of search results? my S.E.O. services can help
                         improving your ranking and drive more traffic to your site.
-                        As an SEO freelancer, I provide comprehensive and result-oriented SEO services to help
-                        businesses improve their online visibility and drive organic traffic to their websites. With a
-                        deep understanding of search engine algorithms and industry best practices, I offer tailored
-                        strategies to optimize websites and content for higher search engine rankings.
+                        As an SEO freelancer and other more services...
                     </p>
                     <button class="services-card-btn">Check-it</button>
                 </div>
             </div>
             <div class="services-card">
                 <div class="services-img">
-                    <img src="/IMG/blog (2).png" alt="">
+                    <img src="http://localhost/cwdportfolio/IMG/webdev.png" alt="">
                 </div>
                 <div class="services-card-text">
                     <h3>Blog Posting</h3>
                     <p>Welcome to my blog! Dive into a world of captivating stories, insightful articles, and
                         practical tips. Explore a variety of topics, from lifestyle and personal development to travel
-                        and technology. Join me on this journey of discovery as we unravel the mysteries of life and
-                        share valuable insights along the way. Get ready to be inspired, informed, and entertained as
-                        you explore the pages of my blog. Start reading now and let's embark on an adventure together!
+                        and technology...
                     </p>
                     <button class="services-card-btn">Check-it</button>
                 </div>
@@ -127,7 +118,7 @@
         <h2>About me</h2>
         <section class="about-sec">
             <div class="about-content">
-                <img src="/IMG/m2.png" alt="">
+                <img src="http://localhost/cwdportfolio/IMG/m2.png" alt="">
                 <div class="about-content-text">
                     <p class="about-content-text-p">Hello, my name is</p>
                     <h3>Govind-Gour</h3>
@@ -142,57 +133,94 @@
                         such as React and Wordpress like CMS's. I have a keen eye for detail, and I strive to create
                         visually appealing websites that not only look great but also provide a seamless browsing
                         experience.</p>
-                        <a href="/HTML/about.html">
-                            <button class="about-content-btn">Read-More</button>
-                        </a>
+                    <a href="http://localhost/cwdportfolio/HTML/about.php">
+                        <button class="about-content-btn">Read-More</button>
+                    </a>
                 </div>
             </div>
         </section>
         <hr>
         <h2>Recent Blog Posts</h2>
-        <section id="recent-blog" class="recent-blog">
-            
+        <section id="recent-blog" class=" recent-blog">
+<?php
+require 'HTML/db_connect.php';
+
+$query = "SELECT * FROM cwdblogposts ORDER BY date DESC LIMIT 4";
+$result = $connection->query($query);
+
+if ($result->num_rows > 0) {
+    while ($row = $result->fetch_assoc()) {
+        $src = $row['src'];
+        $id = $row['id'];
+        $title = $row['title'];
+        $descrition = $row['descrition'];
+        $date = $row['date'];
+        
+        echo " 
+        <div class=' recent-blog-posts'>
+            <a href='http://localhost/cwdportfolio/HTML/single-post.php?id=$id'>
+                <div class='recent-blog-img'>
+                    <img src='$src' alt='codewithgour'>
+                </div>
+                <div class='recent-blog-text'>
+                    <h3>$title</h3>
+                    <p>$descrition</p>
+                    <div class='recent-blog-date'>
+                        <a href='http://localhost/cwdportfolio/HTML/single-post.php?id=$id' class='recent-blog-btn'>Read-More</a>
+                        <span>Posted on $date</span>
+                    </div>
+                </div>
+            </a>
+    </div>
+        ";
+    }
+} else {
+    echo "<h2 style='text-align: center;font-size: 3rem;color:#fc6060;'>Post Not Found</h2>";
+}
+
+
+?>
         </section>
         <hr>
         <h2>Why Choose me</h2>
-            <section class="why-me-box">
-                <div class="why-me-card">
-                    <div class="why-me-img">
-                        <img class="Choose-me-img" src="/IMG/communication.png" alt="" width="100%;">
-                    </div>
-                    <div class="why-me-card-text">
-                        <h3>Web Development</h3>
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Velit corrupti labore maxime optio
-                            repellendus ipsum aspernatur, illum nam odit exercitationem.</p>
-                        <button class="why-me-card-btn">Check-it</button>
-                    </div>
+        <section class="why-me-box">
+            <div class="why-me-card">
+                <div class="why-me-img">
+                    <img class="Choose-me-img" src="http://localhost/cwdportfolio/IMG/communication.png" alt="" width="100%;">
                 </div>
-                <div class="why-me-card">
-                    <div class="why-me-img">
-                        <img class="Choose-me-img" src="/IMG/communication.png" alt="" width="100%;">
-                    </div>
-                    <div class="why-me-card-text">
-                        <h3>Web Development</h3>
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Velit corrupti labore maxime optio
-                            repellendus ipsum aspernatur, illum nam odit exercitationem.</p>
-                        <button class="why-me-card-btn">Check-it</button>
-                    </div>
+                <div class="why-me-card-text">
+                    <h3>3+ Years of experience</h3>
+                    <p>With so much of experience in creating and redesigning websites for businesses of all sizes and
+                        industries. I know how to make your website stand out from the crowd.</p>
+                    <button class="why-me-card-btn">Check-it</button>
                 </div>
-                <div class="why-me-card">
-                    <div class="why-me-img">
-                        <img class="Choose-me-img" src="/IMG/communication.png" alt="" width="100%;">
-                    </div>
-                    <div class="why-me-card-text">
-                        <h3>Web Development</h3>
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Velit corrupti labore maxime optio
-                            repellendus ipsum aspernatur, illum nam odit exercitationem.</p>
-                        <button class="why-me-card-btn">Check-it</button>
-                    </div>
+            </div>
+            <div class="why-me-card">
+                <div class="why-me-img">
+                    <img class="Choose-me-img" src="http://localhost/cwdportfolio/IMG/communication.png" alt="" width="100%;">
                 </div>
-                
-            </section>
+                <div class="why-me-card-text">
+                    <h3>Honest Communication</h3>
+                    <p>I understand the importance of clear and transparent communication and make it a priority. giving
+                        complete information, showing intent to be
+                        understood, and being sincere. </p>
+                    <button class="why-me-card-btn">Check-it</button>
+                </div>
+            </div>
+            <div class="why-me-card">
+                <div class="why-me-img">
+                    <img class="Choose-me-img" src="http://localhost/cwdportfolio/IMG/communication.png" alt="" width="100%;">
+                </div>
+                <div class="why-me-card-text">
+                    <h3>Result Oriented Approach</h3>
+                    <p>From understanding your goals and using data-driven insights, to prioritizing user experience and
+                        continuous improvement, I will help you achieve success with your website.</p>
+                    <button class="why-me-card-btn">Check-it</button>
+                </div>
+            </div>
+
+        </section>
     </main>
-    <hr>
 
     <Footer>
         <img src="" alt="Ungraduate-Coder" class="footer-logo">
@@ -214,23 +242,20 @@
                 <h4>Nav-Menu</h4>
                 <div class="footer-inner-content-box">
 
-                    <a href="/index.html">
+                    <a href="http://localhost/cwdportfolio/index.php">
                         <li style="color: rgb(156, 152, 152);text-decoration: line-through;">Home</li>
                     </a>
-                    <a href="/HTML/about.html">
+                    <a href="http://localhost/cwdportfolio/HTML/about.php">
                         <li>About-me</li>
                     </a>
-                    <a href="/HTML/blog.html">
+                    <a href="http://localhost/cwdportfolio/HTML/blog.php">
                         <li>Blog</li>
                     </a>
-                    <a href="">
+                    <a href="http://localhost/cwdportfolio/HTML/portfolio.php">
                         <li>Portfolio</li>
                     </a>
-                    <a href="/HTML/contact.html">
+                    <a href="http://localhost/cwdportfolio/HTML/contact.php">
                         <li>Contact-us</li>
-                    </a>
-                    <a href="">
-                        <li>Projects</li>
                     </a>
                 </div>
             </div>
@@ -248,51 +273,50 @@
         <p class="footer-copyright">Copyright &copy; www.codewithgour.com | All rights Reserved</p>
     </Footer>
     <script>
-        
-const headings = [
-    "Coder",
-    "Developer",
-    "Freelancer",
-    "Blogger",
-    "Designer",
-    "SEO_Expert"
-]
 
-const headingele = document.getElementById("heading");
-const headingele2 = document.getElementById("logo");
-// console.log(headingele)
-let headingindex = 0;
-let charindex = 0;
+        const headings = [
+            "Coder",
+            "Developer",
+            "Freelancer",
+            "Blogger",
+            "Designer",
+            "SEO_Expert"
+        ]
 
-function type() {
-    if (headingindex < headings.length) {
-        if (charindex < headings[headingindex].length) {
-            headingele.innerHTML += headings[headingindex].charAt(charindex);
-            charindex++;
-            setTimeout(type, 100);
-        } else {
-            setTimeout(change, 1000);
+        const headingele = document.getElementById("heading");
+        const headingele2 = document.getElementById("logo");
+        // console.log(headingele)
+        let headingindex = 0;
+        let charindex = 0;
+
+        function type() {
+            if (headingindex < headings.length) {
+                if (charindex < headings[headingindex].length) {
+                    headingele.innerHTML += headings[headingindex].charAt(charindex);
+                    charindex++;
+                    setTimeout(type, 100);
+                } else {
+                    setTimeout(change, 1000);
+                }
+            } else {
+                headingindex = 0;
+                setTimeout(type, 1000);
+            }
         }
-    }else{
-        headingindex = 0;
-        setTimeout(type, 1000);
-    }
-}
 
-function change() {
-    if (charindex >= 0) {
-        const currentheading = headings[headingindex];
-        headingele.innerHTML = currentheading.substring(0, charindex);
-        charindex--;
-        setTimeout(change, 50);
-    } else {
-        headingindex++;
-        setTimeout(type, 500);
-    }
-}
-
-type();
-
+        function change() {
+            if (charindex >= 0) {
+                const currentheading = headings[headingindex];
+                headingele.innerHTML = currentheading.substring(0, charindex);
+                charindex--;
+                setTimeout(change, 50);
+            } else {
+                headingindex++;
+                setTimeout(type, 500);
+            }
+        }
+        type();
+        // showrecentblogposts();
     </script>
 </body>
 

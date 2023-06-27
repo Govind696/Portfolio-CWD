@@ -2,15 +2,44 @@
     .posts {
         width: 32% !important;
     }
-    .recent-blog-img {
-        height: 200px;
+
+    .recent-blog {
+        grid-template-columns: repeat(3, 1fr);
     }
 
+    .about-content img {
+        width: 36vw;
+        transition: all 0.2s ease-in;
+    }
+
+    .recent-blog-btn {
+        padding: 4px 6px;
+    }
+
+    .Workflow-card {
+        width: 80% !important;
+
+    }
+
+    .Workflow-card-text {
+        height: 17vh !important;
+    }
+
+    .You-Paying-sec-card {
+        width: 100% !important;
+        padding: 0 15px !important;
+    }
+
+    .You-Paying-sec {
+        grid-gap: 2rem 2rem !important;
+        padding: 3rem 0 !important;
+    }
 }
 
 @media screen and (max-width: 1000px) {
-    .recent-blog-img {
-        height: 225px;
+
+    .recent-blog-text p {
+        margin-bottom: 0.7rem;
     }
 
     .blog-posts {
@@ -19,7 +48,6 @@
 
     .services-img img {
         width: 95%;
-        padding-top: 25px;
     }
 
     .why-me-img img {
@@ -27,13 +55,6 @@
         padding-top: 25px;
     }
 
-    .why-me-img {
-        /* height: 225px; */
-    }
-
-    .services-img {
-        /* height: 225px; */
-    }
 
     .services-card {
         width: 100%;
@@ -50,10 +71,12 @@
     .why-me-card-text h3 {
         font-size: 1.3rem;
     }
+
     .why-me-img img {
         width: 95%;
         padding-top: 5px;
     }
+
     .services-card-text h3 {
         font-size: 1.3rem;
     }
@@ -71,7 +94,7 @@
     }
 
     header {
-        height: 68vh;
+        height: 75vh;
     }
 
     .recent-blog {
@@ -81,7 +104,7 @@
 
     .recent-blog-img img {
         width: 95%;
-        padding-top: 20px;
+        padding-top: 12px;
     }
 
     .hero-btns {
@@ -96,6 +119,10 @@
         margin-top: 2rem;
     }
 
+    .hero-btns :nth-child(3) {
+        margin-top: 2rem;
+    }
+
     .about-content {
         padding-bottom: 3rem;
     }
@@ -106,7 +133,7 @@
     }
 
     .hero-content {
-        height: 40vh;
+        height: 54vh;
         width: 80%;
     }
 
@@ -146,11 +173,35 @@
     .posts {
         width: 31% !important;
     }
+
     .blog-search-bar {
         justify-content: center;
         width: 100% !important;
-    }.blog-search-bar input {
+    }
+
+    .blog-search-bar input {
         width: 60% !important;
+    }
+
+    .Workflow-card-text {
+        height: 15vh !important;
+    }
+
+    .Workflow-card {
+        width: 80% !important;
+
+    } .skills {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .skills-bar {
+        width: 90%;
+    }
+
+    .skill-progress-width {
+        font-size: 1.1rem;
+        justify-content: center;
     }
 }
 
@@ -162,15 +213,17 @@
     .posts {
         width: 48% !important;
     }
+
     .blog-main-heading h2 {
         font-size: 1.1rem !important;
     }
+
     .hero-content-text2 {
         font-size: 1rem;
     }
 
     .logo {
-        width: 100%;
+        width: 50%;
         align-items: center;
     }
 
@@ -178,13 +231,19 @@
 
         padding-bottom: 1rem;
     }
+
     .hero-content {
-        height: 45vh;
+        height: 58vh;
         width: 80%;
     }
 
     .hero {
-        margin-top: 60px;
+        display: flex;
+        justify-content: center;
+        margin-top: 6vw;
+        position: absolute;
+        left: 0;
+        margin-top: 5rem;
     }
 
     #heading {
@@ -195,8 +254,8 @@
     nav {
         height: 12vh;
         text-align: center;
-        padding-top: 2.5rem;
-        display: block;
+        /* padding-top: 2.5rem; */
+        /* display: block; */
     }
 
     .nav-items {
@@ -206,7 +265,7 @@
     }
 
     header {
-        height: 65vh;
+        height: 77vh;
     }
 
     .services-box {
@@ -218,14 +277,16 @@
     .services-card {
         width: 95%;
     }
+
     .services-img {
-        height: 320px;
         width: 100%;
     }
+
     .services-img img {
-        width: 85%;
-        padding-top: 29px;
+        width: 95%;
+        padding-top: 10px;
     }
+
     .about-content {
         flex-direction: column;
         align-items: center;
@@ -300,71 +361,183 @@
     .f-contact-box a {
         margin: 8px 0;
     }
+
     .blog-search-bar {
         justify-content: center;
         width: 100% !important;
-    }.blog-search-bar input {
-        width: 60% !important;
-    }.recent-blog-img {
-        height: 200px;
     }
+
+    .blog-search-bar input {
+        width: 60% !important;
+    }
+
+
     .recent-blog-img img {
         width: 95%;
         padding-top: 15px;
+    }
+
+    .Workflow-card-text {
+        height: 14vh !important;
+    }
+
+    .Workflow-card {
+        width: 90% !important;
+
+    }
+
+    .You-Paying-sec-card {
+        width: 100% !important;
+        padding: 0 !important;
+    }
+
+    .You-Paying-sec {
+        grid-gap: 2rem 1rem !important;
+        padding:
+            3rem 0 !important;
+        grid-template-columns: repeat(1, 1fr) !important;
+        margin: 0 1rem !important;
+    } .skills {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .skills-bar {
+        width: 90%;
+    }
+
+    .skill-progress-width {
+        font-size: 1.1rem;
+        justify-content: center;
     }
 }
 
 @media screen and (max-width: 600px) {
     .posts {
         width: 90% !important;
-    }.blog-main-heading h2 {
+    }
+    .skills {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .skills-bar {
+        width: 90%;
+    }
+
+    .skill-progress-width {
+        font-size: 1.1rem;
+        justify-content: center;
+    }
+    .blog-main-heading h2 {
         font-size: 1.5rem !important;
     }
+
     .blog-search-bar {
         justify-content: center;
         width: 100% !important;
-    }.blog-search-bar input {
+    }
+
+    .blog-search-bar input {
         width: 60% !important;
     }
-    .services-img {
-        height: 280px;
-        margin-bottom: 15px;
-    }
+
+    /* .services-img {
+        height: 322px;
+    } */
+
     .services-img img {
-        width: 90%;
-        padding-top: 20px;
+        width: 100%;
     }
+
     .hero-content {
-        height: 47vh;
-        width: 85%;
+        height: 50vh;
+        width: 90%;
     }
-    .recent-blog-img {
-        height: 290px;
+
+    header {
+        height: 90vh;
     }
+
+    .hero-btns {
+        flex-direction: column;
+    }
+
+    .hero-btns :nth-child(1) {
+        margin-top: 10px;
+    }
+
+    .hero-btns :nth-child(2) {
+        margin-top: 0;
+    }
+
+    .hero-btns :nth-child(3) {
+        margin-top: 0;
+    }
+
     .recent-blog-img img {
-        width: 92%;
-        padding-top: 25px;
+        width: 95%;
+        padding-top: 13px;
     }
+
+    .recent-blog-text {
+        padding: 2rem 1rem;
+    }
+
     .why-me-box {
         grid-template-columns: repeat(1, 1fr) !important;
     }
+
     .recent-blog {
         grid-template-columns: repeat(1, 1fr);
     }
+
     .why-me-img img {
         /* width: 95%; */
         padding-top: 8px;
         /* object-fit: cover; */
-    }.footer-content-box h4 {
+    }
+
+    .footer-content-box h4 {
         font-size: 1.4rem;
         margin: 0;
         font-family: monospace;
         font-weight: 600;
     }
+
+    .Workflow-card-text {
+        height: 14vh !important;
+        text-align: center;
+        padding: 10px;
+    }
+
+    .Workflow-card {
+        width: 100% !important;
+
+    }
 }
+
 @media screen and (max-width: 400px) {
     .hero-content h1 {
         font-size: 1.2rem;
+    }
+
+    .logo {
+        width: 80%;
+        align-items: center;
+        /* margin-right: 6rem; */
+    }
+
+    .skills {
+        flex-direction: column;
+    }
+
+    .skills-bar {
+        width: 100%;
+    }
+
+    .skill-progress-width {
+        font-size: 1rem;
     }
 
     #heading {
@@ -372,21 +545,22 @@
     }
 
     .hero {
-        margin-top: 0px;
+        margin-top: 10px;
     }
 
     .hero-content {
-        height: 50vh;
-        width: 90%;
-        margin-top: 0;
+        height: 52vh;
+        width: 87%;
+        margin-top: 4rem;
     }
+
     nav {
-        padding-top: 2rem;
+        padding-top: 0;
         height: 12vh;
     }
 
     header {
-        height: 65vh;
+        height: 80vh;
     }
 
     .logo h2 {
@@ -443,23 +617,26 @@
         /* margin: 15px; */
         padding: 1rem;
     }
+
     .services-img {
-        height: 190px;
         margin-bottom: 0px;
     }
-    .recent-blog-img {
-        height: 210px;
-    }
+
+
     .recent-blog-img img {
         width: 92%;
         padding-top: 10px;
     }
+
     .why-me-img img {
         width: 100%;
         padding-top: 5px;
-    }.why-me-card-text {
+    }
+
+    .why-me-card-text {
         padding: 1rem 1rem;
     }
+
     .contact-content {
         WIDTH: 80%;
         align-items: start;
@@ -486,6 +663,7 @@
         width: 95%;
         padding: 18px;
     }
+
     .single-post-page {
         width: 92% !important;
         padding: 10px !important;
@@ -493,18 +671,22 @@
         margin-top: 3rem !important;
         margin-bottom: 3vw !important;
     }
+
     .single-page-share {
         margin-top: 0 !important;
         height: 18vh !important;
     }
+
     .single-page-icons {
         display: flex;
         flex-direction: column;
         width: 70%;
     }
+
     .single-page-icons a {
         font-size: 1rem !important;
     }
+
     .single-page-share h4 {
         font-size: 1.8rem !important;
         font-weight: 600 !important;

@@ -1,0 +1,94 @@
+.You-Paying-sec {
+display: grid;
+grid-template-columns: repeat(2, 1fr);
+grid-gap: 2rem 0;
+transition: all 0.3s ease;
+padding: 3rem;
+justify-items: center;
+align-items: center;
+    margin: 0 2rem;
+}
+.You-Paying-sec-card {
+    width: 80%;
+	backdrop-filter: blur(100px);
+	border-bottom: 1px solid aliceblue;
+	border-top: 1px solid aliceblue;
+	transition: all 0.2s ease-in;
+	border-radius: 30px;
+	padding: 15px;
+}
+.You-Paying-sec-card:hover{
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.7);
+    background: #2F2F2F;
+}
+.You-Paying-sec-text {
+	padding: 1rem;
+	height: 25vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.You-Paying-sec-text h3 {
+	font-size: 1.7rem;
+	text-transform: uppercase;
+	font-weight: 700;
+	text-align: center;
+	margin: 0px auto;
+	font-family: monospace;
+}
+.You-Paying-sec-text p {
+	text-align: justify;
+	margin: 15px 0;
+	font-size: 1.2rem;
+}
+
+
+
+.Workflow-box {
+	transition: all 0.3s ease;
+	margin: 25px auto;
+	padding: 3vw;
+}
+
+.Workflow-card {
+    width: 50%;
+	backdrop-filter: blur(100px);
+	border-bottom: 1px solid aliceblue;
+	border-top: 1px solid aliceblue;
+	transition: all 0.2s ease-in;
+	border-radius: 30px;
+	margin: 0 auto;
+	margin-bottom: 23px;
+}
+.Workflow-card:hover{
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.7);
+    background: #2F2F2F;
+}
+.Workflow-card-text {
+    display: flex;
+	justify-content: center;
+	flex-direction: column;
+	/* justify-content: space-evenly; */
+	align-items: center;
+	height: 17vh;
+}
+.Workflow-card-text h3 {
+	margin-bottom: 12px;
+	font-size: 1.9rem;
+}
+.Workflow-card-text p {
+	margin-bottom: 8px;
+	font-size: 1.3rem;
+}
+.portfolio-contact {
+	text-align: center;
+	background-color: #222;
+	font-size: 2.3rem;
+	text-transform: uppercase;
+	font-family: monospace;
+	transition: all 0.3s ease;
+	padding: 5px;
+	margin-top: 3rem;
+	margin-bottom: 1rem;
+}

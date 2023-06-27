@@ -5,35 +5,35 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/CSS/contact.css">
-    <link rel="stylesheet" href="/CSS/style.css">
-    <link rel="stylesheet" href="/CSS/media-quarys.css">
-    <script src="/JS/index.js" defer=""></script>
-    <link rel="shortcut icon" href="/IMG/experince.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="http://localhost/cwdportfolio/CSS/contact.css">
+    <link rel="stylesheet" href="http://localhost/cwdportfolio/CSS/style.css">
+    <link rel="stylesheet" href="http://localhost/cwdportfolio/CSS/media-quarys.css">
+    <script src="http://localhost/cwdportfolio/JS/index.js" defer=""></script>
+    <!-- <link rel="shortcut icon" href="/IMG/experince.jpg" type="image/x-icon"> -->
     <title>CWD -- Contact page</title>
 </head>
 
 <body>
     <nav id="navbar">
         <div class="logo">
-            <!-- <img src="" alt="Ungraduate-Coder"> -->
-            <h2>Ungraduate Coder</h2>
-               <img class="ham-nav" src="/IMG/ham-nav.png" alt="hamburger" width="40px" onclick="resnav()">
+            <img class="main-logo" src="http://localhost/cwdportfolio/IMG/Untitled.png" alt="Ungraduate-Coder">
+            <!-- <h2>Ungraduate Coder</h2> -->
         </div>
+        <img class="ham-nav" src="http://localhost/cwdportfolio/IMG/ham-nav.png" alt="hamburger" width="40px" onclick="resnav()">
         <ul id="icon-nav" class="nav-items">
-            <a href="/index.html">
+            <a href="http://localhost/cwdportfolio/index.php">
                 <li  class="liclas" >Home</li>
             </a>
-            <a href="/HTML/about.html">
+            <a href="http://localhost/cwdportfolio/HTML/about.php">
                 <li  class="liclas">About-me</li>
             </a>
-            <a href="/HTML/blog.html">
+            <a href="http://localhost/cwdportfolio/HTML/blog.php">
                 <li  class="liclas">Blog</li>
             </a>
-            <a href="">
+            <a href="http://localhost/cwdportfolio/HTML/portfolio.php">
                 <li  class="liclas">Portfolio</li>
             </a>
-            <a href="/HTML/contact.html">
+            <a href="http://localhost/cwdportfolio/HTML/contact.php">
                 <li  class="liclas" style="color: rgb(156, 152, 152);text-decoration: line-through;">Contact-us</li>
             </a>
            <!-- <button class="nav-icon">
@@ -42,33 +42,33 @@
         </ul>
     </nav>
     <div class="contact-main-container">
-        <h2>contact me</h2>
+        <h2 class="contact-h2">contact me</h2>
         <div class="contact-container">
-            <form class="contact-content-form">
+            <!-- <iframe class="form" src="https://docs.google.com/forms/d/e/1FAIpQLSdMkpAkaThLL_rcP5vR9Gg7fhdQM3o0GI46x95Pxugot4btNg/viewform?embedded=true" 
+            width="840" height="700" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe> -->
+            <form action="http://localhost/cwdportfolio/mail.php" method="post" class="contact-content-form">
                 <div class="content-items contact-content-items">
                     <label for="text">FullName</label>
-                    <input type="text" placeholder="enter your fullname">
+                    <input type="text" name="fullname" id="fullname" placeholder="enter your fullname">
                 </div>
                 <div class="content-items contact-content-items">
-                    <label for="text">email</label>
-                    <input type="email" placeholder="enter your email">
+                    <label for="text">Email</label>
+                    <input type="email" name="email" id="email" placeholder="enter your email">
                 </div>
                 <div class="content-items contact-content-items">
-                    <label for="text">phone</label>
-                    <input type="tel" placeholder="enter your phone">
+                    <label for="text">Phone</label>
+                    <input type="tel" name="phone" id="phone" placeholder="enter your phone">
                 </div>
                 <div class="content-items contact-content-items">
-                    <label for="text">What Service Do You Need?
-                    </label>
-                    <input class="extra-height" type="text" placeholder="enter your answer here">
+                    <label for="text">What Service Do You Need?</label>
+                    <input class="extra-height" type="text" name="massage1" id="massage1" placeholder="enter your answer here">
                 </div>
                 <div class="content-items  contact-content-items">
-                    <label for="text">Do you have the budget of spending 10K-50K for your website requirement?
-                    </label>
-                    <input class="extra-height" type="text" placeholder="enter your answer here">
+                    <label for="text">Do you have the budget of spending 10K-50K for your website requirement?</label>
+                    <input class="extra-height" type="text" name="massage2" id="massage2" placeholder="enter your answer here">
                 </div>
                 <div class=" contact-content-items">
-                    <button>Submit</button>
+                    <button type="submit">Submit</button>
                 </div>
             </form>
             <div class="contact-content">
@@ -83,7 +83,6 @@
             </div>
         </div>
     </div>
-    <hr>
     <Footer>
         <img src="" alt="Ungraduate-Coder" class="footer-logo">
         <div class="footer-content">
@@ -104,23 +103,20 @@
                 <h4>Nav-Menu</h4>
                 <div class="footer-inner-content-box">
 
-                    <a href="/index.html">
+                    <a href="http://localhost/cwdportfolio/index.php">
                         <li >Home</li>
                     </a>
-                    <a href="/HTML/about.html">
+                    <a href="http://localhost/cwdportfolio/HTML/about.php">
                         <li>About-me</li>
                     </a>
-                    <a href="/HTML/blog.html">
+                    <a href="http://localhost/cwdportfolio/HTML/blog.php">
                         <li>Blog</li>
                     </a>
-                    <a href="">
+                    <a href="http://localhost/cwdportfolio/HTML/portfolio.php">
                         <li>Portfolio</li>
                     </a>
-                    <a href="/HTML/contact.html">
+                    <a href="http://localhost/cwdportfolio/HTML/contact.php">
                         <li style="color: rgb(156, 152, 152);text-decoration: line-through;">Contact-us</li>
-                    </a>
-                    <a href="">
-                        <li>Projects</li>
                     </a>
                 </div>
             </div>
@@ -139,4 +135,4 @@
     </Footer>
 </body>
 
-</html>
+            </html>

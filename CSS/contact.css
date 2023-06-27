@@ -5,14 +5,14 @@
 }
 
 body {
-    background-color: #222;
+    background-color: #222;font-family: monospace;
 }
 
 .contact-container {
     width: 100%;
-	display: flex;
-	margin-bottom: 4rem;
-	justify-content: space-evenly;
+    display: flex;
+    padding-bottom: 5rem;
+    justify-content: space-evenly;
 }
 .contact-main-container h2{
         text-align: center;
@@ -54,7 +54,7 @@ body {
 	text-transform: uppercase;
 	letter-spacing: 3px;
 }
-.contact-container h2 {
+.contact-h2 {
     width: 100%;
     color: white;
     text-align: center;
@@ -70,7 +70,7 @@ body {
 }
 
 .contact-content-items label {
-    font-size: 1rem;
+    font-size: 1.1rem;
     padding: 5px 0;
     color: #fc6060;
     font-weight: 600;
@@ -85,15 +85,16 @@ body {
 }
 
 .contact-content-items input {
-    text-align: center;
-    padding: 6px 0;
-    background: #141414;
-    font-size: 0.8rem;
-    letter-spacing: 1.1px;
-    border-radius: 6px;
-    border: none;
-    transition: all 0.4s ease-in;
-    outline: none;
+	text-align: center;
+	padding: 6px 0;
+	background: #141414;
+	font-size: 1rem;
+	letter-spacing: 1.1px;
+	border-radius: 6px;
+	border: none;
+	/* transition: all 0.4s ease-in; */
+	outline: none;
+	color: white;
 }
 
 .contact-content-items input::placeholder {
@@ -137,4 +138,16 @@ body {
 }
 .extra-height {
     height: 10vh;
+}
+
+.portfolio-contact {
+	text-align: center;
+	/* background-color: #222; */
+	font-size: 2.3rem;
+	text-transform: uppercase;
+	font-family: monospace;
+	transition: all 0.3s ease;
+	padding: 5px;
+	margin-top: 3rem;
+	margin-bottom: 1rem;
 }
