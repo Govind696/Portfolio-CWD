@@ -79,46 +79,47 @@
     <main>
         <section class="services">
             <h2>Our Services</h2>
-            <div class="services-box">
-                <div class="services-card">
-                    <div class="services-img">
-                        <img src="http://localhost/cwdportfolio/IMG/webdev.png" alt="">
-                    </div>
-                    <div class="services-card-text">
-                        <h3>Web Development</h3>
-                        <p>Need a website that doesn't look like it's from the 90s? Let me help you create a website
-                            or redesign one that stands out from the competition.
-                            As a freelance web developer...
-                        </p>
-                        <button class="services-card-btn">Check-it</button>
-                    </div>
+            <section class="services-box">
+            <div class="services-card">
+                <div class="services-img">
+                    <img src="http://localhost/cwdportfolio/IMG/web2.png" alt="">
                 </div>
-                <div class="services-card">
-                    <div class="services-img">
-                        <img src="http://localhost/cwdportfolio/IMG/webdev.png" alt="">
-                    </div>
-                    <div class="services-card-text">
-                        <h3>S.E.O.</h3>
-                        <p>Is your website getting lost in the sea of search results? my S.E.O. services can help
-                            improving your ranking and drive more traffic to your site.
-                            As an SEO freelancer...
-                        </p>
-                        <button class="services-card-btn">Check-it</button>
-                    </div>
-                </div>
-                <div class="services-card">
-                    <div class="services-img">
-                        <img src="http://localhost/cwdportfolio/IMG/webdev.png" alt="">
-                    </div>
-                    <div class="services-card-text">
-                        <h3>Blog Posting</h3>
-                        <p>Welcome to my blog! Dive into a world of captivating stories, insightful articles, and
-                            practical tips. Explore a variety of topics, from lifestyle and personal development...
-                        </p>
-                        <button class="services-card-btn">Check-it</button>
-                    </div>
+                <div class="services-card-text">
+                    <h3>Web Development</h3>
+                    <p>Need a website that doesn't look like it's from the 90s? Let me help you create a website
+                        or redesign one that stands out from the competition.
+                        As a freelance web developer...
+                    </p>
+                    <button class="services-card-btn">Check-it</button>
                 </div>
             </div>
+            <div class="services-card">
+                <div class="services-img">
+                    <img src="http://localhost/cwdportfolio/IMG/seo2.png" alt="">
+                </div>
+                <div class="services-card-text">
+                    <h3>S.E.O.</h3>
+                    <p>Is your website getting lost in the sea of search results? my S.E.O. services can help
+                        improving your ranking and drive more traffic to your site.
+                        As an SEO freelancer and other more services...
+                    </p>
+                    <button class="services-card-btn">Check-it</button>
+                </div>
+            </div>
+            <div class="services-card">
+                <div class="services-img">
+                    <img src="http://localhost/cwdportfolio/IMG/blog2.png" alt="">
+                </div>
+                <div class="services-card-text">
+                    <h3>Blog Posting</h3>
+                    <p>Welcome to my blog! Dive into a world of captivating stories, insightful articles, and
+                        practical tips. Explore a variety of topics, from lifestyle and personal development to travel
+                        and technology...
+                    </p>
+                    <button class="services-card-btn">Check-it</button>
+                </div>
+            </div>
+        </section>
         </section>
         <hr>
         <section class="about">
@@ -188,7 +189,7 @@
             <div class="why-me-box">
                 <div class="why-me-card">
                     <div class="why-me-img">
-                        <img class="Choose-me-img" src="http://localhost/cwdportfolio/IMG/communication.png" alt="" width="100%;">
+                        <img class="Choose-me-img" src="http://localhost/cwdportfolio/IMG/why1.png" alt="" width="100%;">
                     </div>
                     <div class="why-me-card-text">
                         <h3>3+ Years of experience</h3>
@@ -200,7 +201,7 @@
                 </div>
                 <div class="why-me-card">
                     <div class="why-me-img">
-                        <img class="Choose-me-img" src="http://localhost/cwdportfolio/IMG/communication.png" alt="" width="100%;">
+                        <img class="Choose-me-img" src="http://localhost/cwdportfolio/IMG/tt.png" alt="" width="100%;">
                     </div>
                     <div class="why-me-card-text">
                         <h3>Honest Communication</h3>
@@ -213,7 +214,7 @@
                 </div>
                 <div class="why-me-card">
                     <div class="why-me-img">
-                        <img class="Choose-me-img" src="http://localhost/cwdportfolio/IMG/communication.png" alt="" width="100%;">
+                        <img class="Choose-me-img" src="http://localhost/cwdportfolio/IMG/RESULT.png" alt="" width="100%;">
                     </div>
                     <div class="why-me-card-text">
                         <h3>Result Oriented Approach</h3>

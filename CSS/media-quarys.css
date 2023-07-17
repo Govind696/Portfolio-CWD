@@ -94,7 +94,7 @@
     }
 
     header {
-        height: 75vh;
+        height: 90vh !important;
     }
 
     .recent-blog {
@@ -265,7 +265,7 @@
     }
 
     header {
-        height: 77vh;
+        height: 90vh;
     }
 
     .services-box {
@@ -349,8 +349,8 @@
     }
 
     .contact-content-form {
-        padding: 15px 0px;
-        width: 90%;
+        padding: 15px 0px !important;
+        width: 90% !important;
     }
 
     .contact-content {
@@ -403,7 +403,7 @@
     }
 
     .skills-bar {
-        width: 90%;
+        width: 90% !important;
     }
 
     .skill-progress-width {
@@ -451,12 +451,14 @@
     }
 
     .hero-content {
-        height: 50vh;
+        height: 63vh;
         width: 90%;
     }
-
+    .contact-content-form {
+        width: 90%;
+    }
     header {
-        height: 90vh;
+        height: 100vh;
     }
 
     .hero-btns {
@@ -549,9 +551,9 @@
     }
 
     .hero-content {
-        height: 52vh;
+        height: 80vh;
         width: 87%;
-        margin-top: 4rem;
+        margin-top: 2rem;
     }
 
     nav {
@@ -560,7 +562,7 @@
     }
 
     header {
-        height: 80vh;
+        height: 100vh;
     }
 
     .logo h2 {
@@ -650,7 +652,8 @@
     }
 
     .responsive-navbar {
-        height: 28vh;
+        top: 79px;
+        height: 35vh;
     }
 
     .about-content-btn {

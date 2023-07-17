@@ -76,7 +76,7 @@
         <section class="services-box">
             <div class="services-card">
                 <div class="services-img">
-                    <img src="http://localhost/cwdportfolio/IMG/webdev.png" alt="">
+                    <img src="http://localhost/cwdportfolio/IMG/web2.png" alt="">
                 </div>
                 <div class="services-card-text">
                     <h3>Web Development</h3>
@@ -89,7 +89,7 @@
             </div>
             <div class="services-card">
                 <div class="services-img">
-                    <img src="http://localhost/cwdportfolio/IMG/webdev.png" alt="">
+                    <img src="http://localhost/cwdportfolio/IMG/seo2.png" alt="">
                 </div>
                 <div class="services-card-text">
                     <h3>S.E.O.</h3>
@@ -102,7 +102,7 @@
             </div>
             <div class="services-card">
                 <div class="services-img">
-                    <img src="http://localhost/cwdportfolio/IMG/webdev.png" alt="">
+                    <img src="http://localhost/cwdportfolio/IMG/blog2.png" alt="">
                 </div>
                 <div class="services-card-text">
                     <h3>Blog Posting</h3>
@@ -186,7 +186,7 @@ if ($result->num_rows > 0) {
         <section class="why-me-box">
             <div class="why-me-card">
                 <div class="why-me-img">
-                    <img class="Choose-me-img" src="http://localhost/cwdportfolio/IMG/communication.png" alt="" width="100%;">
+                    <img class="Choose-me-img" src="http://localhost/cwdportfolio/IMG/why1.png" alt="" >
                 </div>
                 <div class="why-me-card-text">
                     <h3>3+ Years of experience</h3>
@@ -197,7 +197,7 @@ if ($result->num_rows > 0) {
             </div>
             <div class="why-me-card">
                 <div class="why-me-img">
-                    <img class="Choose-me-img" src="http://localhost/cwdportfolio/IMG/communication.png" alt="" width="100%;">
+                    <img class="Choose-me-img" src="http://localhost/cwdportfolio/IMG/tt.png" alt="" >
                 </div>
                 <div class="why-me-card-text">
                     <h3>Honest Communication</h3>
@@ -209,7 +209,7 @@ if ($result->num_rows > 0) {
             </div>
             <div class="why-me-card">
                 <div class="why-me-img">
-                    <img class="Choose-me-img" src="http://localhost/cwdportfolio/IMG/communication.png" alt="" width="100%;">
+                    <img class="Choose-me-img" src="http://localhost/cwdportfolio/IMG/RESULT.png" alt="" >
                 </div>
                 <div class="why-me-card-text">
                     <h3>Result Oriented Approach</h3>
